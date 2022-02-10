@@ -19,5 +19,37 @@
  
  - Metadata and attribute information:
     - Given is the attribute name, attribute type, the measurement unit and a brief description.  The number of rings is      the value to predict as a continuous value.
+#### Variable List
+   | Name   |      Data Type      |  Measurement | Description |
+   |----------|:-------------|:------| :-----------|
+   | Sex |  categorical (factor) |  |  M, F, and I (Infant)  |
+   | Length |  continuous	 | mm |  Longest shell measurement  |
+   | Diameter |  continuous	 | mm | perpendicular to length  |
+   | Height |  continuous	 | mm |  with meat in shell  |
+   | Whole weight |  continuous	 | grams	 |  whole abalone  |
+   | Shucked weight |  continuous	 | grams	 |  weight of meat  |
+   | Viscera weight	 |  continuous	 | grams	 |  gut weight (after bleeding)  |
+   | Shell weight |  continuous	 | grams	 |  after being dried  |
+   | Rings |  continuous	 |  | +1.5 gives the age in years  |
+#### Interest
+
+- **Predicting the age of abalone from physical measurements:**  
+    - The age of abalone is determined by cutting the shell       through the cone, staining it, and counting the number of rings through a microscope -- a boring and
+      time-consuming task.  Other measurements, which are easier to obtain, are used to predict the age.  Further           information, such as weather patterns and location (hence food availability) may be required to solve the             problem.
+- **Apply different tests to obtain the best linear/log-linear model:**
+    - We are interested in performing various regression tests and produce the best linear model and  to be able to predict and assess the accuracy of our prediction.
+Below is the analysis
+
+
+
+---
+"Predicting the age of abalone using regression"
+--
+
+
+## Methods
+
+```r
+   
 
 
