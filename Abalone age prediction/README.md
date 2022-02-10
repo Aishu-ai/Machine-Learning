@@ -38,18 +38,14 @@
       time-consuming task.  Other measurements, which are easier to obtain, are used to predict the age.  Further           information, such as weather patterns and location (hence food availability) may be required to solve the             problem.
 - **Apply different tests to obtain the best linear/log-linear model:**
     - We are interested in performing various regression tests and produce the best linear model and  to be able to predict and assess the accuracy of our prediction.
-Below is the analysis
+
+####Method
+See the analysis and the code in "Abalone.R"
+
+####Conclusion
+The model with the best performance is the additive log model(Which uses all the 8 variables as predictor variables)
 
 
-
----
-"Predicting the age of abalone using regression"
---
-
-
-## Methods
-
-```r
    
 
 
