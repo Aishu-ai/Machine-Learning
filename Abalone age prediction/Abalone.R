@@ -153,10 +153,6 @@ VIF(abalone_add_log_inf)
 #Compromising on "no multicollineraity"
 
 
-
-
-
-
 #Dropping columns weight.diff and infant from test data
 dropcol <- c("weight.diff","Infant")
 test_data <- abalone_test[, !(abalone_test %in% dropcol)]
