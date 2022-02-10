@@ -39,10 +39,10 @@
 - **Apply different tests to obtain the best linear/log-linear model:**
     - We are interested in performing various regression tests and produce the best linear model and  to be able to predict and assess the accuracy of our prediction.
 
-####Method
+#### Method
 See the analysis and the code in "Abalone.R"
 
-####Conclusion
+#### Conclusion
 The model with the best performance is the additive log model(Which uses all the 8 variables as predictor variables)
 
 
