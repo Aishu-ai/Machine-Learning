@@ -43,7 +43,7 @@
 See the analysis and the code in "Abalone.R"
 
 # Conclusion
-The model with the best performance is the additive log model(Which uses all the 8 variables as predictor variables)
+The model with the best performance is the additive log model(Which uses all the 8 variables as predictor variables).
 
 
    
