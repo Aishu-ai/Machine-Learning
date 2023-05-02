@@ -1,3 +1,6 @@
+<h1>Image compression- Huffman Coding</h1>
+----------------------------------------------------------
+
 <p>Huffman coding is one of the fundamental compression algorithms used in image and video compression
 standards. Huffman coding is based on assigning variable-length codes to symbols in such a way that
 the most frequently occurring symbols have the shortest codes. The main idea behind Huffman coding
